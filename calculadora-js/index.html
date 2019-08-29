@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Lucas Matos">
+		<meta name="keywords" content="HTML5,CSS,Bootstrap,JS">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		 <title>calculadora-node</title>
+	</head>
+	<body>
+<div class="container col-md-3">
+	<form class="calculadora" autocomplete="off">
+		<p id="paragrafo"></p>
+	<div id="rbutton">
+	 <label class="radio-inline"><input type="radio" name="rad" value="Adição">Adição</label>
+		<label><input type="radio" name="rad" value="Subtração">Subtração</label>
+		 <label><input type="radio" name="rad" value="Divisão">Divisão</label>
+			<label><input type="radio" name="rad" value="Multiplicação">Multiplicação</label>
+	</div>
+ <div id="bloco-info">
+	 <label class="titulo">Informe o primeiro número:</label>
+	<input id="n1" class="form-control" type="text">
+		<label class="titulo">Informe o segundo número:</label>
+	<input id="n2" class="form-control" type="text">
+		 <button type="button" class="btn btn-primary">Calcular</button>
+ </div>
+	</form>
+</div>
+
+<script type="text/javascript" src="calculadora.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
